@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import payments.Payment;
-
 import java.util.ArrayList;
 
 @ToString
@@ -39,9 +38,4 @@ public class Order {
     public void addFlowerBucket(FlowerBucket flowerBucket) {
         items.add(flowerBucket);
     }
-
-
-
-
-
 }

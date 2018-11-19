@@ -2,7 +2,6 @@ package flowers;
 
 import lombok.Data;
 import lombok.ToString;
-
 import java.util.HashMap;
 
 
@@ -32,6 +31,5 @@ public class FlowerBucket {
         }
         return price;
     }
-
 
 }

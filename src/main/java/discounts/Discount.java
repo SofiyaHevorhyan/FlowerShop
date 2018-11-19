@@ -9,6 +9,7 @@ public class Discount extends Order {
     public Discount(Order order) {
         this.order = order;
     }
+
     @Override
     public double getPrice() {
         return order.getPrice();
@@ -23,5 +24,4 @@ public class Discount extends Order {
     public void addFlowerBucket(FlowerBucket fb) {
         order.addFlowerBucket(fb);
     }
-
 }

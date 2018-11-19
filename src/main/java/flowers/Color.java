@@ -1,6 +1,5 @@
 package flowers;
 
-
 import lombok.Getter;
 import lombok.ToString;
 
@@ -14,6 +13,7 @@ public enum Color {
     PURPLE("#F0F");
 
     private String rgb;
+
     Color(String rgb) {
         this.rgb = rgb;
     }
